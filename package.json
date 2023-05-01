@@ -1,0 +1,22 @@
+{
+  "name": "electron-localhost",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build:mac": "electron-packager . electron-chrome --platform=darwin --arch=x64",
+    "build:win": "electron-packager . long-life-simulator --platform=win32 --arch=x64"
+  },
+  "repository": "git@github.com:kimizuka/electron-chrome.git",
+  "author": "kimizuka <f.kimizuka@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^24.1.2",
+    "express": "^4.18.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.1"
+  }
+}
